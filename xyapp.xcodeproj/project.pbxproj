@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4588FDC81B3498C7005FAD52 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4588FDC71B3498C7005FAD52 /* icon.png */; };
+		4588FDCA1B349B10005FAD52 /* icon58.png in Resources */ = {isa = PBXBuildFile; fileRef = 4588FDC91B349B10005FAD52 /* icon58.png */; };
+		45E76EEA1B771DE5007E6121 /* 180x180.png in Resources */ = {isa = PBXBuildFile; fileRef = 45E76EE41B771DE5007E6121 /* 180x180.png */; };
+		45E76EEB1B771DE5007E6121 /* 120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 45E76EE51B771DE5007E6121 /* 120x120.png */; };
+		45E76EEC1B771DE5007E6121 /* 87.png in Resources */ = {isa = PBXBuildFile; fileRef = 45E76EE61B771DE5007E6121 /* 87.png */; };
+		45E76EED1B771DE5007E6121 /* 80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = 45E76EE71B771DE5007E6121 /* 80x80.png */; };
+		45E76EEE1B771DE5007E6121 /* 58x58.png in Resources */ = {isa = PBXBuildFile; fileRef = 45E76EE81B771DE5007E6121 /* 58x58.png */; };
+		45E76EEF1B771DE5007E6121 /* 29x29.png in Resources */ = {isa = PBXBuildFile; fileRef = 45E76EE91B771DE5007E6121 /* 29x29.png */; };
 		45F53B921B348C2A00D3F981 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F53B911B348C2A00D3F981 /* AppDelegate.swift */; };
 		45F53B941B348C2A00D3F981 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F53B931B348C2A00D3F981 /* ViewController.swift */; };
 		45F53B971B348C2A00D3F981 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45F53B951B348C2A00D3F981 /* Main.storyboard */; };
@@ -26,6 +34,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4588FDC71B3498C7005FAD52 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../../Documents/icon/icon.png; sourceTree = "<group>"; };
+		4588FDC91B349B10005FAD52 /* icon58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon58.png; path = ../../../Documents/icon/icon58.png; sourceTree = "<group>"; };
+		45E76EE41B771DE5007E6121 /* 180x180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 180x180.png; path = ../../../Desktop/appico/180x180.png; sourceTree = "<group>"; };
+		45E76EE51B771DE5007E6121 /* 120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 120x120.png; path = ../../../Desktop/appico/120x120.png; sourceTree = "<group>"; };
+		45E76EE61B771DE5007E6121 /* 87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 87.png; path = ../../../Desktop/appico/87.png; sourceTree = "<group>"; };
+		45E76EE71B771DE5007E6121 /* 80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 80x80.png; path = ../../../Desktop/appico/80x80.png; sourceTree = "<group>"; };
+		45E76EE81B771DE5007E6121 /* 58x58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 58x58.png; path = ../../../Desktop/appico/58x58.png; sourceTree = "<group>"; };
+		45E76EE91B771DE5007E6121 /* 29x29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 29x29.png; path = ../../../Desktop/appico/29x29.png; sourceTree = "<group>"; };
 		45F53B8C1B348C2A00D3F981 /* xyapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xyapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45F53B901B348C2A00D3F981 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45F53B911B348C2A00D3F981 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +106,14 @@
 		45F53B8F1B348C2A00D3F981 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				45E76EE41B771DE5007E6121 /* 180x180.png */,
+				45E76EE51B771DE5007E6121 /* 120x120.png */,
+				45E76EE61B771DE5007E6121 /* 87.png */,
+				45E76EE71B771DE5007E6121 /* 80x80.png */,
+				45E76EE81B771DE5007E6121 /* 58x58.png */,
+				45E76EE91B771DE5007E6121 /* 29x29.png */,
+				4588FDC91B349B10005FAD52 /* icon58.png */,
+				4588FDC71B3498C7005FAD52 /* icon.png */,
 				45F53B901B348C2A00D3F981 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -161,9 +185,11 @@
 				TargetAttributes = {
 					45F53B8B1B348C2A00D3F981 = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = CLR7JU8BR2;
 					};
 					45F53BA01B348C2A00D3F981 = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = CLR7JU8BR2;
 						TestTargetID = 45F53B8B1B348C2A00D3F981;
 					};
 				};
@@ -192,9 +218,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45E76EEC1B771DE5007E6121 /* 87.png in Resources */,
+				45E76EEF1B771DE5007E6121 /* 29x29.png in Resources */,
+				4588FDC81B3498C7005FAD52 /* icon.png in Resources */,
+				45E76EEE1B771DE5007E6121 /* 58x58.png in Resources */,
 				45F53B971B348C2A00D3F981 /* Main.storyboard in Resources */,
+				45E76EED1B771DE5007E6121 /* 80x80.png in Resources */,
 				45F53B9C1B348C2A00D3F981 /* LaunchScreen.xib in Resources */,
 				45F53B991B348C2A00D3F981 /* Images.xcassets in Resources */,
+				45E76EEB1B771DE5007E6121 /* 120x120.png in Resources */,
+				45E76EEA1B771DE5007E6121 /* 180x180.png in Resources */,
+				4588FDCA1B349B10005FAD52 /* icon58.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +306,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Yijia Liu (8EENX29M54)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Yijia Liu (8EENX29M54)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -291,9 +326,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "5ef34899-6fc7-471a-9842-694b128bd5d3";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -316,7 +352,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Yijia Liu (8EENX29M54)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Yijia Liu (8EENX29M54)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -329,8 +366,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "5ef34899-6fc7-471a-9842-694b128bd5d3";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -340,9 +378,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Yijia Liu (8EENX29M54)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Yijia Liu (8EENX29M54)";
+				COMPRESS_PNG_FILES = NO;
 				INFOPLIST_FILE = xyapp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5ef34899-6fc7-471a-9842-694b128bd5d3";
 			};
 			name = Debug;
 		};
@@ -350,9 +394,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Yijia Liu (8EENX29M54)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Yijia Liu (8EENX29M54)";
+				COMPRESS_PNG_FILES = NO;
 				INFOPLIST_FILE = xyapp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5ef34899-6fc7-471a-9842-694b128bd5d3";
 			};
 			name = Release;
 		};
@@ -360,6 +410,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -371,6 +423,7 @@
 				INFOPLIST_FILE = xyappTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xyapp.app/xyapp";
 			};
 			name = Debug;
@@ -379,6 +432,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -386,6 +441,7 @@
 				INFOPLIST_FILE = xyappTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xyapp.app/xyapp";
 			};
 			name = Release;
@@ -409,6 +465,7 @@
 				45F53BAD1B348C2A00D3F981 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		45F53BAE1B348C2A00D3F981 /* Build configuration list for PBXNativeTarget "xyappTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +474,7 @@
 				45F53BB01B348C2A00D3F981 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
